@@ -33,6 +33,10 @@ footer {
   color: #f9faf8;
 }
 
+.main-header-caption {
+    padding-bottom: 10px;
+}
+
 .sign-button {
   color: #f9faf8;
   background-color: #3882f6;
