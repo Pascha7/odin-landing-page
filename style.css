@@ -44,14 +44,16 @@ footer {
   font-weight: 900;
 }
 
-.background-color1 button {
-  margin-top: 15px;
+.sign-button-buy {
+    border: 2px solid #f9faf8;
 }
 
 .information-header {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  text-align: center;
+  padding: 40px 0;
 }
 
 .quote-color {
@@ -62,11 +64,19 @@ footer {
   font-size: 36px;
   font-weight: 300;
   color: #1f2937;
+  font-weight: 100;
+  font-style: italic; 
+}
+
+.quote-section p:last-child{
+    font-size: 1.5rem;
+    text-align: right;
 }
 
 footer {
   color: #f9faf8;
   text-align: center;
+  padding: 30px 0;
 }
 
 nav {
@@ -85,6 +95,11 @@ nav {
   width: 1100px;
 }
 
+.quote-section {
+    width: 900px;
+    padding: 130px 0;
+}
+
 .main-img {
   width: 350px;
   border-radius: 1rem;
@@ -99,11 +114,6 @@ nav {
 a {
   margin-left: 20px;
   text-decoration: none;
-}
-
-.information-header {
-    text-align: center;
-    padding: 40px 0;
 }
 
 .second-block img {
@@ -130,4 +140,20 @@ a {
 .img-captions p {
     width: 200px;
     text-align: center;
+}
+
+.sign-up-color {
+    background-color: #3882f6;
+    border-radius: 0.25rem;
+    padding: 40px 70px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-block {
+    padding: 100px 200px;
+    width: 900px;
+    margin: 0 auto;
 }
